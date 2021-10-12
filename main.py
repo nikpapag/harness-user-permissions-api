@@ -5,10 +5,8 @@ from logging.config import dictConfig
 
 import harnessgraphql
 import pandas as pd
-import cufflinks as cf
 import permissions
-cf.go_offline()
-cf.set_config_file(offline=False, world_readable=True)
+
 
 
 #Get all command line arguments
