@@ -31,18 +31,18 @@ https://app.harness.io/gateway/api/graphql
 ###### Clone and prepare script
 
 1. Clone the github repository
-      ```
+
         git clone https://github.com/nikpapag/harness-user-permissions-api
-       ```
+
 2. Navigate to the Repo's local directory
-      ```
+
         cd harness-user-permissions-api
-      ```
+
       
 3. Provide the correct permissions to the executable files
-      ```
+
         chmod 700 main.py
-      ```
+
 
 ###### Startup Options
     - Script takes three arguments
