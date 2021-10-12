@@ -33,7 +33,7 @@ https://app.harness.io/gateway/api/graphql
     - Clone the github repository
       ```
         git clone https://github.com/nikpapag/harness-user-permissions-api
-      ```
+       ```
     - Navigate to the Repo's local directory
       ```
         cd harness-user-permissions-api
