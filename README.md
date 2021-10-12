@@ -28,10 +28,8 @@ https://app.harness.io/gateway/api/graphql
         pip3 install pandas
       ```
 
+###### Clone and prepare script
 
-###### Execution
-      
-    - Install and Configure the Python Script
     - Clone the github repository
       ```
         git clone https://github.com/nikpapag/harness-user-permissions-api
@@ -40,15 +38,24 @@ https://app.harness.io/gateway/api/graphql
       ```
         cd harness-user-permissions-api
       ```
+      
     - Provide the correct permissions to the executable files
       ```
         chmod 700 main.py
       ```
-    - Run the python Script with the appropriate parameters
-      ```
+
+###### Startup Options
+    - Script takes three arguments
+        ```
         --account (Harness account ID)
         --apiKey (Harness API key generated to use the graphql API)
         --user (Email of user to search)
+        ```
+
+###### Execution
+      
+    - Run the python Script with the appropriate parameters
+      ```
         python3 main.py --account XXXXXXXX --apiKey XXXYYYYYYYY --user user@domain.com
       ```
 
