@@ -45,17 +45,16 @@ https://app.harness.io/gateway/api/graphql
 
 
 ###### Startup Options
-    - Script takes three arguments
-        ```
+1. Script takes three arguments
         --account (Harness account ID)
         --apiKey (Harness API key generated to use the graphql API)
         --user (Email of user to search)
-        ```
+
 
 ###### Execution
       
-    - Run the python Script with the appropriate parameters
-      ```
+1. Run the python Script with the appropriate parameters
+
         python3 main.py --account XXXXXXXX --apiKey XXXYYYYYYYY --user user@domain.com
-      ```
+
 
