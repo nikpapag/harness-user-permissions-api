@@ -19,13 +19,13 @@ https://app.harness.io/gateway/api/graphql
         pip3 install pandas
       ```
 2. Ubuntu
-  - Install ubuntu prereqs
+    - Install ubuntu prereqs
     ```
-      sudo apt-get update -y
-      sudo apt-get install -y git
-      sudo apt-get install -y python3-pip
-      pip3 install requests
-      pip3 install pandas
+        sudo apt-get update -y
+        sudo apt-get install -y git
+        sudo apt-get install -y python3-pip
+        pip3 install requests
+        pip3 install pandas
     ```
 
 
